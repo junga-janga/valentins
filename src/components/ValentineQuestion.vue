@@ -163,7 +163,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .question {
   min-height: 40vh;
-  height: 100%;
+  height: 50%;
   background: linear-gradient(135deg, #1a1a1a, #4b0082);
   color: white;
   display: flex;
@@ -172,6 +172,7 @@ onBeforeUnmount(() => {
   justify-content: center;
   gap: 40px;
   text-align: center;
+  overflow: hidden;
 }
 
 .title {

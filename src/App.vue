@@ -39,5 +39,7 @@ const handleStart = () => {
     flex-direction: column;
     gap: 12px;
     background-color: #ffe4f1;
+    height: 100%;
+    overflow-x:  hidden;
   }
 </style>
