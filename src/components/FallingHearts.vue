@@ -30,7 +30,8 @@ const createHeart = () => {
   const delay = Math.random() * 2
 
   const colors = ['#ff69b4', '#d946ef', '#f472b6', '#a78bfa']
-
+  const randomColor =
+  colors[Math.floor(Math.random() * colors.length)]!
   hearts.value.push({
     id: heartId++,
     style: {
@@ -38,7 +39,7 @@ const createHeart = () => {
       fontSize: `${size}px`,
       animationDuration: `${duration}s`,
       animationDelay: `${delay}s`,
-      color: colors[Math.floor(Math.random() * colors.length)],
+      color: randomColor,
     },
   })
 
