@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 import { ValentineSlider, ValentineQuestion, WelcomeModal, FallingHearts } from './components'
-import { img1, img2, img3, img4, img5, img6, img7, ambients } from './assets'
+import { img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, ambients } from './assets'
 
 const photos = [
   img1,
@@ -20,7 +20,17 @@ const photos = [
   img4,
   img5,
   img6,
-  img7
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
 ]
 
 const ambient = new Audio(ambients)
